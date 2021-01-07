@@ -109,3 +109,19 @@ dconf load /org/gnome/settings-daemon/plugins/media-keys/ < media-keys-keybindin
 - Appindicator support
 - Night theme switcher
 - Remove accessibility
+
+## Change pointer size (for scaling 1.35x)
+
+```sh
+dconf write /org/gnome/desktop/interface/cursor-size 35
+```
+
+or set cursor size in accessibility settings
+
+## Change key repeat delay
+
+Settings submenu "Accessibility-Typing-Repeat Keys"
+
+## Set up profile picture
+
+[userpic](files/pictures/userpic.jpg)
