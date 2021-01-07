@@ -1,0 +1,4 @@
+libreoffice-writer
+libreoffice-calc
+celluloid
+meld

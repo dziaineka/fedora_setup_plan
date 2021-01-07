@@ -1,0 +1,2 @@
+org.telegram.desktop
+org.kde.krita
