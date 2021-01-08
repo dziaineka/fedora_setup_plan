@@ -115,7 +115,16 @@ bash ./init.sh
 - joplin
 - insomnia
 - another redis desktop manager
-- setup zsh & ohmyzsh
+
+### Setup zsh & ohmyzsh
+
+```sh
+sudo dnf install zsh util-linux-user
+chsh -s /bin/zsh
+rm ~/.bash_history ~/.bash_logout
+```
+
+Then install ohmyzsh
 
 ## Setup apps
 
