@@ -175,7 +175,40 @@ cat nautilus.properties | dconf load /org/gnome/nautilus/
 - Night theme switcher
 - Remove accessibility
 
-## Change pointer size (for scaling 1.35x)
+## Enable HiDPI in TTY
+
+terminus-fonts-console and terminus-fonts-grub2 already installed
+
+Add to `/etc/vconsole.conf`:
+
+```conf
+KEYMAP="us"
+FONT="ter-v32n"
+```
+
+Copy font:
+
+```sh
+sudo cp /usr/share/grub/ter-u32n.pf2 /boot/efi/EFI/fedora/fonts/
+```
+
+Add to `/etc/default/grub`:
+
+```conf
+GRUB_FONT="/boot/efi/EFI/fedora/fonts/ter-u32n.pf2"
+GRUB_TERMINAL_OUTPUT="gfxterm"
+```
+
+Rebuild GRUB:
+
+```sh
+sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+
+```sh
+sudo systemctl start systemd-vconsole-setup.service
+```
+
 
 ```sh
 dconf write /org/gnome/desktop/interface/cursor-size 35
