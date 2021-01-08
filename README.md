@@ -209,9 +209,10 @@ sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 sudo systemctl start systemd-vconsole-setup.service
 ```
 
+## Disable file system scanning
 
 ```sh
-dconf write /org/gnome/desktop/interface/cursor-size 35
+dconf write /org/freedesktop/tracker/miner/files/crawling-interval -2
 ```
 
 or set cursor size in accessibility settings
