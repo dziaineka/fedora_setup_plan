@@ -215,12 +215,23 @@ sudo systemctl start systemd-vconsole-setup.service
 dconf write /org/freedesktop/tracker/miner/files/crawling-interval -2
 ```
 
-or set cursor size in accessibility settings
+## Increase file descriptor limit
 
-## Change key repeat delay
+Add to `/etc/sysctl.conf`:
 
-Settings submenu "Accessibility-Typing-Repeat Keys"
+```conf
+fs.inotify.max_user_watches=524288
+```
 
-## Set up profile picture
+## Settings
 
-[userpic](files/pictures/userpic.jpg)
+- **Notifictions:** disable Lock Screen Notifications.
+- **Search:** keep only Calculator, Software and Weather.
+- **Online Accounts:** add Google account.
+- **Mouse & Touchpad:** touchpad speed to 70%, enable Tap to Click.
+- **Users:** set [userpic](files/pictures/userpic.jpg).
+- **Region & Language:** Belarus latin formats.
+- **Power** Set power button behaviour to `nothing`, blank screen never.
+- **Accessibility** Cursor size `medium`. Typing-Repeat Keys set lower delay, faster speed.
+
+Left only Telegram, Firefox, Nautilus, Terminal, VS Code in the dock.
