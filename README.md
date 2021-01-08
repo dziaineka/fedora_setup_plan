@@ -146,6 +146,24 @@ Install:
 cat gedit.properties | dconf load /org/gnome/gedit/
 ```
 
+### Nautilus
+
+Save:
+
+```sh
+dconf dump /org/gnome/nautilus/ > nautilus.properties
+```
+
+or use:
+
+[nautilus.properties](files/configs/nautilus.properties)
+
+Install:
+
+```sh
+cat nautilus.properties | dconf load /org/gnome/nautilus/
+```
+
 ## Gnome extensions
 
 - Unite
