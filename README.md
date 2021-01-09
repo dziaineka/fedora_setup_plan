@@ -233,5 +233,6 @@ fs.inotify.max_user_watches=524288
 - **Region & Language:** Belarus latin formats.
 - **Power** Set power button behaviour to `nothing`, blank screen never.
 - **Accessibility** Cursor size `medium`. Typing-Repeat Keys set lower delay, faster speed.
+- **Sound** System sounds — mute.
 
 Left only Telegram, Firefox, Nautilus, Terminal, VS Code in the dock.
