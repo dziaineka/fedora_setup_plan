@@ -229,7 +229,7 @@ fs.inotify.max_user_watches=524288
 - **Search:** keep only Calculator, Software and Weather.
 - **Online Accounts:** add Google account.
 - **Mouse & Touchpad:** touchpad speed to 70%, enable Tap to Click.
-- **Users:** set [userpic](files/pictures/userpic.jpg).
+- **Users:** set [userpic](files/pictures/userpic.png).
 - **Region & Language:** Belarus latin formats.
 - **Power** Set power button behaviour to `nothing`, blank screen never.
 - **Accessibility** Cursor size `medium`. Typing-Repeat Keys set lower delay, faster speed.
