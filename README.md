@@ -53,13 +53,13 @@ Place to `/usr/share/X11/xkb/symbols/` files:
 
 Russian with belarussian symbols in 3rd layout and disables alt button to be able to set alt button to layout changing
 
-[BY-RU layout](files/keyboard_layouts/ru)
+[BY-RU layout](https://github.com/dziaineka/my_us_ru_keyboard_layout/blob/main/linux/ru)
 
 #### English (US, IBM Arabic 238_L)
 
 English with point and comma as in Russian
 
-[EN](files/keyboard_layouts/us)
+[EN](https://github.com/dziaineka/my_us_ru_keyboard_layout/blob/main/linux/us)
 
 ## Setup terminal
 
