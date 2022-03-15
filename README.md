@@ -2,7 +2,7 @@
 
 ## Install linux
 
-## Setup keyboard
+## Setup keyboard and touchpad
 
 ### Tune keyboard in tweaks
 
@@ -11,6 +11,16 @@
 ```sh
 gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:ralt_switch', 'grp:caps_toggle', 'ctrl:swap_lalt_lctl_lwin', 'shift:breaks_caps', 'altwin:prtsc_rwin']"
 ```
+
+On Macbook:
+
+```sh
+gsettings set org.gnome.desktop.input-sources xkb-options "['lv3:ralt_switch', 'grp:caps_toggle', 'shift:breaks_caps', 'grp:win_space_toggle', 'altwin:ctrl_win', 'ctrl:lctrl_meta']"
+```
+
+### Setup touchpad scroll speed
+
+[libinput-config](https://gitlab.com/kirbykevinson/libinput-config)
 
 ### Disable hotkeys to apps run from the dash
 
